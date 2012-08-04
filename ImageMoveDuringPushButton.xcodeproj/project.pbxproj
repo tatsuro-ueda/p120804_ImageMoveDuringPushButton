@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07A687F715CD287100317B0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A687F615CD287100317B0B /* UIKit.framework */; };
+		07A687F915CD287100317B0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A687F815CD287100317B0B /* Foundation.framework */; };
+		07A687FB15CD287100317B0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A687FA15CD287100317B0B /* CoreGraphics.framework */; };
+		07A6880115CD287100317B0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07A687FF15CD287100317B0B /* InfoPlist.strings */; };
+		07A6880315CD287100317B0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A6880215CD287100317B0B /* main.m */; };
+		07A6880715CD287100317B0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A6880615CD287100317B0B /* AppDelegate.m */; };
+		07A6880A15CD287100317B0B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A6880815CD287100317B0B /* MainStoryboard.storyboard */; };
+		07A6880D15CD287100317B0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A6880C15CD287100317B0B /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07A687F215CD287100317B0B /* ImageMoveDuringPushButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageMoveDuringPushButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07A687F615CD287100317B0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07A687F815CD287100317B0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07A687FA15CD287100317B0B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07A687FE15CD287100317B0B /* ImageMoveDuringPushButton-Info.plist */ = {isa = PBXFileReference; path = "ImageMoveDuringPushButton-Info.plist"; sourceTree = "<group>"; };
+		07A6880015CD287100317B0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07A6880215CD287100317B0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07A6880415CD287100317B0B /* ImageMoveDuringPushButton-Prefix.pch */ = {isa = PBXFileReference; path = "ImageMoveDuringPushButton-Prefix.pch"; sourceTree = "<group>"; };
+		07A6880515CD287100317B0B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		07A6880615CD287100317B0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07A6880915CD287100317B0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		07A6880B15CD287100317B0B /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		07A6880C15CD287100317B0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07A687EF15CD287100317B0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A687F715CD287100317B0B /* UIKit.framework in Frameworks */,
+				07A687F915CD287100317B0B /* Foundation.framework in Frameworks */,
+				07A687FB15CD287100317B0B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07A687E715CD287100317B0B = {
+			isa = PBXGroup;
+			children = (
+				07A687FC15CD287100317B0B /* ImageMoveDuringPushButton */,
+				07A687F515CD287100317B0B /* Frameworks */,
+				07A687F315CD287100317B0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07A687F315CD287100317B0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07A687F215CD287100317B0B /* ImageMoveDuringPushButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07A687F515CD287100317B0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07A687F615CD287100317B0B /* UIKit.framework */,
+				07A687F815CD287100317B0B /* Foundation.framework */,
+				07A687FA15CD287100317B0B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07A687FC15CD287100317B0B /* ImageMoveDuringPushButton */ = {
+			isa = PBXGroup;
+			children = (
+				07A6880515CD287100317B0B /* AppDelegate.h */,
+				07A6880615CD287100317B0B /* AppDelegate.m */,
+				07A6880815CD287100317B0B /* MainStoryboard.storyboard */,
+				07A6880B15CD287100317B0B /* ViewController.h */,
+				07A6880C15CD287100317B0B /* ViewController.m */,
+				07A687FD15CD287100317B0B /* Supporting Files */,
+			);
+			path = ImageMoveDuringPushButton;
+			sourceTree = "<group>";
+		};
+		07A687FD15CD287100317B0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07A687FE15CD287100317B0B /* ImageMoveDuringPushButton-Info.plist */,
+				07A687FF15CD287100317B0B /* InfoPlist.strings */,
+				07A6880215CD287100317B0B /* main.m */,
+				07A6880415CD287100317B0B /* ImageMoveDuringPushButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07A687F115CD287100317B0B /* ImageMoveDuringPushButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07A6881015CD287100317B0B /* Build configuration list for PBXNativeTarget "ImageMoveDuringPushButton" */;
+			buildPhases = (
+				07A687EE15CD287100317B0B /* Sources */,
+				07A687EF15CD287100317B0B /* Frameworks */,
+				07A687F015CD287100317B0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageMoveDuringPushButton;
+			productName = ImageMoveDuringPushButton;
+			productReference = 07A687F215CD287100317B0B /* ImageMoveDuringPushButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07A687E915CD287100317B0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 07A687EC15CD287100317B0B /* Build configuration list for PBXProject "ImageMoveDuringPushButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07A687E715CD287100317B0B;
+			productRefGroup = 07A687F315CD287100317B0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07A687F115CD287100317B0B /* ImageMoveDuringPushButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07A687F015CD287100317B0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A6880115CD287100317B0B /* InfoPlist.strings in Resources */,
+				07A6880A15CD287100317B0B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07A687EE15CD287100317B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A6880315CD287100317B0B /* main.m in Sources */,
+				07A6880715CD287100317B0B /* AppDelegate.m in Sources */,
+				07A6880D15CD287100317B0B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07A687FF15CD287100317B0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07A6880015CD287100317B0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07A6880815CD287100317B0B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07A6880915CD287100317B0B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07A6880E15CD287100317B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07A6880F15CD287100317B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07A6881115CD287100317B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageMoveDuringPushButton/ImageMoveDuringPushButton-Prefix.pch";
+				INFOPLIST_FILE = "ImageMoveDuringPushButton/ImageMoveDuringPushButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07A6881215CD287100317B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageMoveDuringPushButton/ImageMoveDuringPushButton-Prefix.pch";
+				INFOPLIST_FILE = "ImageMoveDuringPushButton/ImageMoveDuringPushButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07A687EC15CD287100317B0B /* Build configuration list for PBXProject "ImageMoveDuringPushButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A6880E15CD287100317B0B /* Debug */,
+				07A6880F15CD287100317B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07A6881015CD287100317B0B /* Build configuration list for PBXNativeTarget "ImageMoveDuringPushButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A6881115CD287100317B0B /* Debug */,
+				07A6881215CD287100317B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07A687E915CD287100317B0B /* Project object */;
+}
