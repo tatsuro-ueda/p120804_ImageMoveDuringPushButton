@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    NSTimer *_nt;
+    UIImageView *_imageView;
+}
 
+- (IBAction)pushToMove:(id)sender;
+- (void)goRight;
+- (IBAction)stop;
 @end
